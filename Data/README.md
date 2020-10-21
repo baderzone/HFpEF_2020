@@ -1,1 +1,2 @@
-This folder will contain the raw reads and sample information for HFpEF analysis
+# Reads and sample info
+This folder will contain the read counts from HTSeq and sample information for HFpEF analysis
