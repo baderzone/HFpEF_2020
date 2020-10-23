@@ -62,7 +62,7 @@ subSamples <- samplesTable[samplesTable$tissue == "RVS",]
 
 
 ```{r, echo=TRUE}
-setwd("/Users/hildur/Dropbox/Virginia_Hildur/DEanalysis/")
+setwd("../")
 dds <- DESeqDataSetFromHTSeqCount(samplesTable, directory = "counts/", design = ~ tissue + disease)
 dds_subset <- DESeqDataSetFromHTSeqCount(subSamples, directory = "counts/", design = ~ disease)
 ```
